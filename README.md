@@ -2,7 +2,7 @@
 This is a project to clea text document and get what is document is about using Python. For this exercise,I started out with texts of 124 text file.
 Whenever we get any data its a good practice to clean the data and remove the unwanted stop words, punctuation to clean our data and after the cleaning we can explore the data to make sense out of the document.  So here we used different types of technique to clean our data.
 
-# Tokenization 
+## Tokenization 
 
 Tokenization is the process of breaking up a sequence of strings into pieces such keywords, phrases, symbols and other elements called tokens.  We converted our data into sentence token using NLTK sent_tokenize and then to word token using word_tokenize of nltk method.  These tokens helped to understand the data and we taken this list of tokens for further cleaning process.
  
